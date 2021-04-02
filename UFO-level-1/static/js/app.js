@@ -46,9 +46,9 @@ function runEnter() {
  
   d3.select('tbody').html("");
   
-  filteredData.forEach((filteredData) => {
+  filteredData.forEach((UFO) => {
   var row = tbody.append("tr");
-  Object.entries(filteredData).forEach(([key, value]) => {
+  Object.entries(UFO).forEach(([key, value]) => {
     var cell = row.append("td");
     cell.text(value);
   });

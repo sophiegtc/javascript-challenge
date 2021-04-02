@@ -75,7 +75,6 @@ function runEnter() {
       var row = tbody.append("tr");
        Object.entries(ufo).forEach(function([key, value]) {
          // Append a cell to the row for each value
-         // in the weather report object
          var cell = row.append("td");
          cell.text(value);
        });
